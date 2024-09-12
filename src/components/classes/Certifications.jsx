@@ -2,16 +2,17 @@ import { Link } from "react-router-dom";
 
 import styles from "./classes.module.css";
 import { allOurTrainersData } from "../../data/data";
+import { certificateData } from "../../data/data";
 
-const AllOurTrainers = () => {
+const certifications = () => {
   return (
     <div className={`${styles["all-trainers"]} container sections-padding`}>
       <div className={styles["trainers-text"]}>
-        <p className="paragraph">Our Classes and Trainings</p>
-        <h2>We Trained You to Gain</h2>
+        <p className="paragraph">Certifications of the trainer</p>
+        
       </div>
       <div className={styles.classes}>
-        {allOurTrainersData.map((ele) => {
+        {certificateData.map((ele) => {
           return (
             <div key={ele.id} data-aos="fade-right">
               <img src={ele.image} alt="" />
@@ -26,4 +27,4 @@ const AllOurTrainers = () => {
   );
 };
 
-export default AllOurTrainers;
+export default certifications;

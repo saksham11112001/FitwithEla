@@ -48,6 +48,7 @@ const ContactForm = () => {
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
         <form>
+        <input type="hidden" name="form-name" value="contact" />
           <input
             type="text"
             placeholder="Full Name"

@@ -44,6 +44,14 @@ import thumbnail4 from "../assets/blog11.png";
 import thumbnail5 from "../assets/blog12.png";
 import thumbnail6 from "../assets/blog13.png";
 
+// certificates
+import cert1 from "../elagpt/c1.jpg";
+import cert2 from "../elagpt/c2.jpg";
+import cert3 from "../elagpt/c3.jpg";
+import cert4 from "../elagpt/c4.jpg";
+import cert5 from "../elagpt/c5.jpg";
+import cert6 from "../elagpt/c6.jpg";
+
 export const headerLinksData = [
   {
     id: 1,
@@ -52,7 +60,7 @@ export const headerLinksData = [
   },
   {
     id: 2,
-    title: "About",
+    title: "About the Instructor",
     to: "/about",
   },
   {
@@ -352,6 +360,50 @@ export const allOurTrainersData = [
     id: 6,
     title: "Energy Dance",
     image: ourTrainer6,
+    to: "/",
+  },
+];
+
+export const certificateData = [
+  {
+    id: 1,
+    title: "Pilates Training",
+    image: cert1,
+    to: "/yogaClass",
+  },
+
+  {
+    id: 2,
+    title: "CrossFit",
+    image: cert2,
+    to: "/",
+  },
+
+  {
+    id: 3,
+    title: "Aerobic",
+    image: cert3,
+    to: "/",
+  },
+
+  {
+    id: 4,
+    title: "Yoga As Therapy",
+    image: cert4,
+    to: "/",
+  },
+
+  {
+    id: 5,
+    title: "Boxing",
+    image: cert5,
+    to: "/",
+  },
+
+  {
+    id: 6,
+    title: "Energy Dance",
+    image: cert6,
     to: "/",
   },
 ];
