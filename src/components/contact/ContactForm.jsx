@@ -48,7 +48,7 @@ const ContactForm = () => {
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
         <form>
-        <input type="hidden" name="form-name" value="contact" />
+        <input id="mail " method="POST" data-netlify="true">
           <input
             type="text"
             placeholder="Full Name"
