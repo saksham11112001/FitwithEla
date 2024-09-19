@@ -76,10 +76,10 @@ const ContactForm = () => {
             name="message"
             value={massage}
             onChange={(e) => setMassage(e.target.value)}></textarea>
-          <button onClick={(e) => formHandler(e)} type="submit">
+          <button  type="submit">
             Submit
           </button>
-          <p>{errorMessage}</p>
+          
         </form>
       </div>
     </div>
