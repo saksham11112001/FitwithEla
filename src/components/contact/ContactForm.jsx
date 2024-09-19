@@ -70,12 +70,12 @@ const ContactForm = () => {
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
           />
-          <textarea
+          <input
            
             placeholder="Massage"
             name="message"
             value={massage}
-            onChange={(e) => setMassage(e.target.value)}></textarea>
+            onChange={(e) => setMassage(e.target.value)}/>
           <button  type="submit">
             Submit
           </button>
