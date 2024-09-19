@@ -47,29 +47,33 @@ const ContactForm = () => {
       <div data-aos="fade-up">
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
-        <form  id="mail " method="POST" data-netlify="true" netlify>
+        <form name="contact" id="mail" action="/contact" method="POST" data-netlify="true" netlify>
         
           <input
             type="text"
+            name="name"
             placeholder="Full Name"
             value={fullName}
             onChange={(e) => setFullName(e.target.value)}
           />
           <input
             type="email"
+            name="email"
             placeholder="Email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="text"
+            name="subject"
             placeholder="Subject"
             value={subject}
             onChange={(e) => setSubject(e.target.value)}
           />
           <textarea
-            name=""
+           
             placeholder="Massage"
+            name="message"
             value={massage}
             onChange={(e) => setMassage(e.target.value)}></textarea>
           <button onClick={(e) => formHandler(e)} type="submit">
