@@ -47,7 +47,7 @@ const ContactForm = () => {
       <div data-aos="fade-up">
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
-        <form  id="mail " method="POST" data-netlify="true">
+        <form  id="mail " method="POST" data-netlify="true" netlify>
         
           <input
             type="text"
