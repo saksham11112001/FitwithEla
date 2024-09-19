@@ -51,6 +51,11 @@ import cert3 from "../elagpt/c3.jpg";
 import cert4 from "../elagpt/c4.jpg";
 import cert5 from "../elagpt/c5.jpg";
 import cert6 from "../elagpt/c6.jpg";
+import cert7 from "../elagpt/10.jpg";
+import cert8 from "../elagpt/11.jpg";
+import cert9 from "../elagpt/12.jpg";
+import cert10 from "../elagpt/13.jpg";
+import cert11 from "../elagpt/14.jpg";
 
 export const headerLinksData = [
   {
@@ -404,6 +409,36 @@ export const certificateData = [
     id: 6,
     title: "Energy Dance",
     image: cert6,
+    to: "/",
+  },
+  {
+    id: 7,
+    title: "Energy Dance",
+    image: cert7,
+    to: "/",
+  },
+  {
+    id: 8,
+    title: "Energy Dance",
+    image: cert8,
+    to: "/",
+  },
+  {
+    id: 9,
+    title: "Energy Dance",
+    image: cert9,
+    to: "/",
+  },
+  {
+    id: 10,
+    title: "Energy Dance",
+    image: cert10,
+    to: "/",
+  },
+  {
+    id: 11,
+    title: "Energy Dance",
+    image: cert11,
     to: "/",
   },
 ];
