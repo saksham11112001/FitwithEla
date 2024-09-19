@@ -51,11 +51,11 @@ import cert3 from "../elagpt/c3.jpg";
 import cert4 from "../elagpt/c4.jpg";
 import cert5 from "../elagpt/c5.jpg";
 import cert6 from "../elagpt/c6.jpg";
-import cert7 from "../elagpt/10.jpg";
-import cert8 from "../elagpt/11.jpg";
-import cert9 from "../elagpt/12.jpg";
-import cert10 from "../elagpt/13.jpg";
-import cert11 from "../elagpt/14.jpg";
+import cert7 from "../elagpt/10.png";
+import cert8 from "../elagpt/11.png";
+import cert9 from "../elagpt/12.png";
+import cert10 from "../elagpt/13.png";
+import cert11 from "../elagpt/14.png";
 
 export const headerLinksData = [
   {
