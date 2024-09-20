@@ -45,16 +45,16 @@ import thumbnail5 from "../assets/blog12.png";
 import thumbnail6 from "../assets/blog13.png";
 
 // certificates
-import cert1 from "../elagpt/c1.jpg";
-import cert2 from "../elagpt/c2.jpg";
-import cert3 from "../elagpt/c3.jpg";
+import cert1 from "../elagpt/c5.jpg";
+import cert2 from "../elagpt/12.jpg";
+import cert3 from "../elagpt/13.jpg";
 import cert4 from "../elagpt/c4.jpg";
-import cert5 from "../elagpt/c5.jpg";
+import cert5 from "../elagpt/c1.jpg";
 import cert6 from "../elagpt/c6.jpg";
 import cert7 from "../elagpt/10.png";
 import cert8 from "../elagpt/11.png";
-import cert9 from "../elagpt/12.png";
-import cert10 from "../elagpt/13.png";
+import cert9 from "../elagpt/c2.jpg";
+import cert10 from "../elagpt/c3.jpg";
 import cert11 from "../elagpt/14.png";
 
 export const headerLinksData = [
