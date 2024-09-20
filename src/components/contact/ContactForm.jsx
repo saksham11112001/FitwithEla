@@ -47,34 +47,34 @@ const ContactForm = () => {
       <div data-aos="fade-up">
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
-        <form name="contact" id="mail" action="/contact" method="POST" data-netlify="true" netlify>
+        <form name="contact" id="mail" action="/contact">
         
           <input
             type="text"
             name="name"
             placeholder="Full Name"
-            value={fullName}
+            //value={fullName}
             //onChange={(e) => setFullName(e.target.value)}
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
-            value={email}
+            //value={email}
             //onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="text"
             name="subject"
             placeholder="Subject"
-            value={subject}
+            //value={subject}
             //onChange={(e) => setSubject(e.target.value)}
           />
           <input
            
             placeholder="Massage"
             name="message"
-            value={massage}
+            //value={massage}
             //onChange={(e) => setMassage(e.target.value)}
             />
           <button  type="submit">
