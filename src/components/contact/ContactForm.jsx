@@ -47,7 +47,7 @@ const ContactForm = () => {
       <div data-aos="fade-up">
         <h2>Send Us a Message</h2>
         <p>Your email address will not be published *</p>
-        <form name="contact" id="mail" action="/contact">
+        <form name="contact" id="mail" action="/contact" method="post">
         
           <input
             type="text"
