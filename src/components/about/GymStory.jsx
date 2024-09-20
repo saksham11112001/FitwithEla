@@ -14,9 +14,7 @@ const GymStory = () => {
               {ele?.welcome && <p>Welcome</p>}
               <h2>{ele.title}</h2>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                point of using Lorem Ipsum is
+               Best Trainer in the town with more than 10 years of experience and personalised trainings provided
               </p>
               {ele?.image && <img src={ele.image} alt="" />}
             </div>
@@ -30,9 +28,7 @@ const GymStory = () => {
             <div key={ele.id}>
               <h2>{ele.title}</h2>
               <p>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                point of using Lorem Ipsum is
+              Well equiped personlised training given according to the body needs.
               </p>
             </div>
           );

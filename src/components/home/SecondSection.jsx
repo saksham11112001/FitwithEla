@@ -20,21 +20,21 @@ const SecondSection = () => {
         <div>
           <img src={photo1} alt="women in gym" />
           <h3>Pilates Training</h3>
-          <p>containing Lorem Ipsum passagesand more recently with </p>
-          <Link to={"/yogaClass"}>Read More</Link>
+          <p>Get more information and be ready to rock out </p>
+          <a href="#">Read More</Link>
         </div>
 
         <div>
           <img src={photo2} alt="women in gym" />
           <h3>Aerobic Training</h3>
-          <p>containing Lorem Ipsum passagesand more recently with </p>
+          <p>Get more information and be ready to rock out </p>
           <a href="#">Read More</a>
         </div>
 
         <div>
           <img src={photo3} alt="man in gym" />
           <h3>CrossFit Workout</h3>
-          <p>containing Lorem Ipsum passagesand more recently with </p>
+          <p>Get more information and be ready to rock out </p>
           <a href="#">Read More</a>
         </div>
       </div>

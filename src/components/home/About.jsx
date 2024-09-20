@@ -21,16 +21,16 @@ const FourthSection = () => {
           <br />
           It’s the Only One You Get
         </h2>
-        <p>
+        {/* <p>
           It is a long established fact that a reader will be distracted by the
           readable content of a page when looking at its layout. point of using
           Lorem Ipsum is
-        </p>
+        </p> */}
         <div className={styles.text_one}>
           <div>
             <h3>Motivation</h3>
             <p>
-              It is a long established fact that a reader will be distracted{" "}
+              Motivation to show up daily and get in shape.{" "}
             </p>
           </div>
           <img src={photo1} alt="Photo one" />
@@ -39,7 +39,7 @@ const FourthSection = () => {
           <img src={photo2} alt="Photo two" />
           <div>
             <h3>Inspire</h3>
-            <p>will be distracted by readable content using Lorem Ipsum </p>
+            <p>Inspiration from past students who are currently enrolled as trainers. </p>
           </div>
         </div>
       </div>

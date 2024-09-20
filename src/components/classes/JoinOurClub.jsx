@@ -9,9 +9,7 @@ const JoinOurClub = () => {
       <div>
         <h2>Join Our Club</h2>
         <p>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. point of using
-          Lorem Ipsum is
+          Get a chance to get customised suggestions along with regular support from Ela Gupta.
         </p>
         <button onClick={() => navigate("/contact")}>Start Now</button>
       </div>

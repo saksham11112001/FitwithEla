@@ -16,9 +16,9 @@ const certifications = () => {
           return (
             <div key={ele.id} data-aos="fade-right">
               <img src={ele.image} alt="" />
-              <h3>{ele.title}</h3>
-              <p>Will be customised according to the body.</p>
-              {/* <Link to={ele.ti}>Read More</Link> */}
+              
+              
+              
             </div>
           );
         })}

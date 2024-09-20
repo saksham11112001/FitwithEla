@@ -9,20 +9,20 @@ const ContactForm = () => {
 
   const [errorMessage, setErrorMessage] = useState("");
 
-  const formHandler = (e) => {
-    e.preventDefault();
+  // const formHandler = (e) => {
+  //   e.preventDefault();
 
-    if (!fullName || !email || !subject) {
-      setErrorMessage("Please fill in all fields.");
-      return;
-    } else {
-      setFullName("");
-      setEmail("");
-      setSubject("");
-      setMassage("");
-      setErrorMessage("Send Successfully");
-    }
-  };
+  //   if (!fullName || !email || !subject) {
+  //     setErrorMessage("Please fill in all fields.");
+  //     return;
+  //   } else {
+  //     setFullName("");
+  //     setEmail("");
+  //     setSubject("");
+  //     setMassage("");
+  //     setErrorMessage("Send Successfully");
+  //   }
+  // };
 
   return (
     <div className={`${styles["contact-form"]}  container sections-padding`}>
@@ -54,28 +54,29 @@ const ContactForm = () => {
             name="name"
             placeholder="Full Name"
             value={fullName}
-            onChange={(e) => setFullName(e.target.value)}
+            //onChange={(e) => setFullName(e.target.value)}
           />
           <input
             type="email"
             name="email"
             placeholder="Email"
             value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            //onChange={(e) => setEmail(e.target.value)}
           />
           <input
             type="text"
             name="subject"
             placeholder="Subject"
             value={subject}
-            onChange={(e) => setSubject(e.target.value)}
+            //onChange={(e) => setSubject(e.target.value)}
           />
           <input
            
             placeholder="Massage"
             name="message"
             value={massage}
-            onChange={(e) => setMassage(e.target.value)}/>
+            //onChange={(e) => setMassage(e.target.value)}
+            />
           <button  type="submit">
             Submit
           </button>
